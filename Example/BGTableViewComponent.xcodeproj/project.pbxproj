@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193B4DA0291A304600C04316 /* BGNoSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 193B4D9F291A304600C04316 /* BGNoSectionViewController.m */; };
+		193B4DA4291A3D9A00C04316 /* BGTableViewButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 193B4DA2291A3D9900C04316 /* BGTableViewButtonCell.m */; };
+		193B4DA5291A3D9A00C04316 /* BGTableViewButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 193B4DA3291A3D9A00C04316 /* BGTableViewButtonCell.xib */; };
+		193B4DA8291B533500C04316 /* BGComplexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 193B4DA7291B533500C04316 /* BGComplexViewController.m */; };
+		193B4DAB291BB7B600C04316 /* BGSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 193B4DAA291BB7B600C04316 /* BGSectionView.m */; };
+		193B4DC4291C98D500C04316 /* BGSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 193B4DC3291C98D500C04316 /* BGSettingViewController.m */; };
+		193B4DC7291C98EA00C04316 /* BGSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 193B4DC6291C98EA00C04316 /* BGSettingTableViewCell.m */; };
+		193B4DCA291C993A00C04316 /* BGSettingFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 193B4DC9291C993A00C04316 /* BGSettingFooterView.m */; };
+		193B4DCD291C997B00C04316 /* BGSettingCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 193B4DCC291C997B00C04316 /* BGSettingCellData.m */; };
+		193B4DD0291C9E2E00C04316 /* UINavigationController+BGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 193B4DCF291C9E2E00C04316 /* UINavigationController+BGTool.m */; };
+		193B4DD3291CF12600C04316 /* BGBannerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 193B4DD2291CF12600C04316 /* BGBannerTableViewCell.m */; };
+		194328F32918F03D00B159B3 /* BGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 194328E32918F03D00B159B3 /* BGViewController.m */; };
+		194328F42918F03D00B159B3 /* BGMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 194328E62918F03D00B159B3 /* BGMessageTableViewCell.m */; };
+		194328F52918F03D00B159B3 /* BGFoldingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 194328E82918F03D00B159B3 /* BGFoldingViewController.m */; };
+		194328F62918F03D00B159B3 /* BGBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 194328E92918F03D00B159B3 /* BGBaseTableViewCell.m */; };
+		194328F72918F03D00B159B3 /* UILabel+BGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 194328EB2918F03D00B159B3 /* UILabel+BGTool.m */; };
+		194328F82918F03D00B159B3 /* BGAPPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 194328EC2918F03D00B159B3 /* BGAPPTool.m */; };
+		194328F92918F03D00B159B3 /* BGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 194328F12918F03D00B159B3 /* BGAppDelegate.m */; };
+		19FC69CA29305DE9001C0142 /* BGCellDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC69C929305DE9001C0142 /* BGCellDataModel.m */; };
+		19FC69CD29305E0A001C0142 /* BGSectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC69CC29305E0A001C0142 /* BGSectionViewModel.m */; };
+		538289A74947E083B9DDB2D1 /* Pods_BGTableViewComponent_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016DE96EC1AA3D99823874D9 /* Pods_BGTableViewComponent_Example.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6CA1218EBE1C0FB1E6956BDF /* Pods_BGTableViewComponent_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20752D94AAF767EF88017775 /* Pods_BGTableViewComponent_Tests.framework */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = BGTableViewComponent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016DE96EC1AA3D99823874D9 /* Pods_BGTableViewComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGTableViewComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		193B4D9E291A304600C04316 /* BGNoSectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGNoSectionViewController.h; sourceTree = "<group>"; };
+		193B4D9F291A304600C04316 /* BGNoSectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGNoSectionViewController.m; sourceTree = "<group>"; };
+		193B4DA1291A3D9900C04316 /* BGTableViewButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTableViewButtonCell.h; sourceTree = "<group>"; };
+		193B4DA2291A3D9900C04316 /* BGTableViewButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTableViewButtonCell.m; sourceTree = "<group>"; };
+		193B4DA3291A3D9A00C04316 /* BGTableViewButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BGTableViewButtonCell.xib; sourceTree = "<group>"; };
+		193B4DA6291B533500C04316 /* BGComplexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGComplexViewController.h; sourceTree = "<group>"; };
+		193B4DA7291B533500C04316 /* BGComplexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGComplexViewController.m; sourceTree = "<group>"; };
+		193B4DA9291BB7B600C04316 /* BGSectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGSectionView.h; sourceTree = "<group>"; };
+		193B4DAA291BB7B600C04316 /* BGSectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGSectionView.m; sourceTree = "<group>"; };
+		193B4DC2291C98D500C04316 /* BGSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGSettingViewController.h; sourceTree = "<group>"; };
+		193B4DC3291C98D500C04316 /* BGSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGSettingViewController.m; sourceTree = "<group>"; };
+		193B4DC5291C98EA00C04316 /* BGSettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGSettingTableViewCell.h; sourceTree = "<group>"; };
+		193B4DC6291C98EA00C04316 /* BGSettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGSettingTableViewCell.m; sourceTree = "<group>"; };
+		193B4DC8291C993A00C04316 /* BGSettingFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGSettingFooterView.h; sourceTree = "<group>"; };
+		193B4DC9291C993A00C04316 /* BGSettingFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGSettingFooterView.m; sourceTree = "<group>"; };
+		193B4DCB291C997B00C04316 /* BGSettingCellData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGSettingCellData.h; sourceTree = "<group>"; };
+		193B4DCC291C997B00C04316 /* BGSettingCellData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGSettingCellData.m; sourceTree = "<group>"; };
+		193B4DCE291C9E2E00C04316 /* UINavigationController+BGTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BGTool.h"; sourceTree = "<group>"; };
+		193B4DCF291C9E2E00C04316 /* UINavigationController+BGTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BGTool.m"; sourceTree = "<group>"; };
+		193B4DD1291CF12600C04316 /* BGBannerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGBannerTableViewCell.h; sourceTree = "<group>"; };
+		193B4DD2291CF12600C04316 /* BGBannerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGBannerTableViewCell.m; sourceTree = "<group>"; };
+		194328E22918F03D00B159B3 /* BGMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMessageTableViewCell.h; sourceTree = "<group>"; };
+		194328E32918F03D00B159B3 /* BGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGViewController.m; sourceTree = "<group>"; };
+		194328E42918F03D00B159B3 /* BGBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGBaseTableViewCell.h; sourceTree = "<group>"; };
+		194328E52918F03D00B159B3 /* BGFoldingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGFoldingViewController.h; sourceTree = "<group>"; };
+		194328E62918F03D00B159B3 /* BGMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMessageTableViewCell.m; sourceTree = "<group>"; };
+		194328E72918F03D00B159B3 /* BGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGViewController.h; sourceTree = "<group>"; };
+		194328E82918F03D00B159B3 /* BGFoldingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGFoldingViewController.m; sourceTree = "<group>"; };
+		194328E92918F03D00B159B3 /* BGBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGBaseTableViewCell.m; sourceTree = "<group>"; };
+		194328EB2918F03D00B159B3 /* UILabel+BGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BGTool.m"; sourceTree = "<group>"; };
+		194328EC2918F03D00B159B3 /* BGAPPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGAPPTool.m; sourceTree = "<group>"; };
+		194328ED2918F03D00B159B3 /* BGDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGDefine.h; sourceTree = "<group>"; };
+		194328EE2918F03D00B159B3 /* UILabel+BGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BGTool.h"; sourceTree = "<group>"; };
+		194328EF2918F03D00B159B3 /* BGAPPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGAPPTool.h; sourceTree = "<group>"; };
+		194328F12918F03D00B159B3 /* BGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGAppDelegate.m; sourceTree = "<group>"; };
+		194328F22918F03D00B159B3 /* BGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGAppDelegate.h; sourceTree = "<group>"; };
+		19FC69C829305DE9001C0142 /* BGCellDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGCellDataModel.h; sourceTree = "<group>"; };
+		19FC69C929305DE9001C0142 /* BGCellDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGCellDataModel.m; sourceTree = "<group>"; };
+		19FC69CB29305E0A001C0142 /* BGSectionViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGSectionViewModel.h; sourceTree = "<group>"; };
+		19FC69CC29305E0A001C0142 /* BGSectionViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGSectionViewModel.m; sourceTree = "<group>"; };
+		20752D94AAF767EF88017775 /* Pods_BGTableViewComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGTableViewComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B519847BCE0E003491F2AE /* BGTableViewComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BGTableViewComponent.podspec; path = ../BGTableViewComponent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		296A20796102419CE2A6990D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		520E4C933D959D31FFA65E6E /* Pods-BGTableViewComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGTableViewComponent_Example.release.xcconfig"; path = "Target Support Files/Pods-BGTableViewComponent_Example/Pods-BGTableViewComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* BGTableViewComponent_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGTableViewComponent_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* BGTableViewComponent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BGTableViewComponent-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* BGTableViewComponent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BGTableViewComponent-Prefix.pch"; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* BGTableViewComponent_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BGTableViewComponent_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C2BCF083F9D4135C54EC3618 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C77AD5E5CB2AC6A3CDA96E8E /* Pods-BGTableViewComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGTableViewComponent_Example.debug.xcconfig"; path = "Target Support Files/Pods-BGTableViewComponent_Example/Pods-BGTableViewComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DCB3DA5D677DE92647DF4A36 /* Pods-BGTableViewComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGTableViewComponent_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BGTableViewComponent_Tests/Pods-BGTableViewComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7B08DFFE27E0011869DD223 /* Pods-BGTableViewComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGTableViewComponent_Tests.release.xcconfig"; path = "Target Support Files/Pods-BGTableViewComponent_Tests/Pods-BGTableViewComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				538289A74947E083B9DDB2D1 /* Pods_BGTableViewComponent_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				6CA1218EBE1C0FB1E6956BDF /* Pods_BGTableViewComponent_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193B4DAC291C98BA00C04316 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				193B4DAD291C98BA00C04316 /* VM */,
+				193B4DB4291C98BA00C04316 /* VC */,
+				193B4DB7291C98BA00C04316 /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		193B4DAD291C98BA00C04316 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				193B4DCB291C997B00C04316 /* BGSettingCellData.h */,
+				193B4DCC291C997B00C04316 /* BGSettingCellData.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		193B4DB4291C98BA00C04316 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				193B4DC2291C98D500C04316 /* BGSettingViewController.h */,
+				193B4DC3291C98D500C04316 /* BGSettingViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		193B4DB7291C98BA00C04316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				193B4DC5291C98EA00C04316 /* BGSettingTableViewCell.h */,
+				193B4DC6291C98EA00C04316 /* BGSettingTableViewCell.m */,
+				193B4DC8291C993A00C04316 /* BGSettingFooterView.h */,
+				193B4DC9291C993A00C04316 /* BGSettingFooterView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		194328CE2918A82800B159B3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		194328E12918F03D00B159B3 /* Busniess */ = {
+			isa = PBXGroup;
+			children = (
+				19FC69C729305DCA001C0142 /* Model */,
+				193B4DAC291C98BA00C04316 /* Setting */,
+				194328FA2918F04600B159B3 /* cells */,
+				194328E52918F03D00B159B3 /* BGFoldingViewController.h */,
+				194328E82918F03D00B159B3 /* BGFoldingViewController.m */,
+				194328E72918F03D00B159B3 /* BGViewController.h */,
+				194328E32918F03D00B159B3 /* BGViewController.m */,
+				193B4D9E291A304600C04316 /* BGNoSectionViewController.h */,
+				193B4D9F291A304600C04316 /* BGNoSectionViewController.m */,
+				193B4DA6291B533500C04316 /* BGComplexViewController.h */,
+				193B4DA7291B533500C04316 /* BGComplexViewController.m */,
+				193B4DA9291BB7B600C04316 /* BGSectionView.h */,
+				193B4DAA291BB7B600C04316 /* BGSectionView.m */,
+			);
+			path = Busniess;
+			sourceTree = "<group>";
+		};
+		194328EA2918F03D00B159B3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				194328EF2918F03D00B159B3 /* BGAPPTool.h */,
+				194328EC2918F03D00B159B3 /* BGAPPTool.m */,
+				194328ED2918F03D00B159B3 /* BGDefine.h */,
+				194328EE2918F03D00B159B3 /* UILabel+BGTool.h */,
+				194328EB2918F03D00B159B3 /* UILabel+BGTool.m */,
+				193B4DCE291C9E2E00C04316 /* UINavigationController+BGTool.h */,
+				193B4DCF291C9E2E00C04316 /* UINavigationController+BGTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		194328F02918F03D00B159B3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				194328F22918F03D00B159B3 /* BGAppDelegate.h */,
+				194328F12918F03D00B159B3 /* BGAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		194328FA2918F04600B159B3 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				193B4DA1291A3D9900C04316 /* BGTableViewButtonCell.h */,
+				193B4DA2291A3D9900C04316 /* BGTableViewButtonCell.m */,
+				193B4DA3291A3D9A00C04316 /* BGTableViewButtonCell.xib */,
+				194328E42918F03D00B159B3 /* BGBaseTableViewCell.h */,
+				194328E92918F03D00B159B3 /* BGBaseTableViewCell.m */,
+				194328E22918F03D00B159B3 /* BGMessageTableViewCell.h */,
+				194328E62918F03D00B159B3 /* BGMessageTableViewCell.m */,
+				193B4DD1291CF12600C04316 /* BGBannerTableViewCell.h */,
+				193B4DD2291CF12600C04316 /* BGBannerTableViewCell.m */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		19FC69C729305DCA001C0142 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19FC69C829305DE9001C0142 /* BGCellDataModel.h */,
+				19FC69C929305DE9001C0142 /* BGCellDataModel.m */,
+				19FC69CB29305E0A001C0142 /* BGSectionViewModel.h */,
+				19FC69CC29305E0A001C0142 /* BGSectionViewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		340D8241F60331758C0B5423 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C77AD5E5CB2AC6A3CDA96E8E /* Pods-BGTableViewComponent_Example.debug.xcconfig */,
+				520E4C933D959D31FFA65E6E /* Pods-BGTableViewComponent_Example.release.xcconfig */,
+				DCB3DA5D677DE92647DF4A36 /* Pods-BGTableViewComponent_Tests.debug.xcconfig */,
+				F7B08DFFE27E0011869DD223 /* Pods-BGTableViewComponent_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for BGTableViewComponent */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				340D8241F60331758C0B5423 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* BGTableViewComponent_Example.app */,
+				6003F5AE195388D20070C39A /* BGTableViewComponent_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				016DE96EC1AA3D99823874D9 /* Pods_BGTableViewComponent_Example.framework */,
+				20752D94AAF767EF88017775 /* Pods_BGTableViewComponent_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for BGTableViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				194328F02918F03D00B159B3 /* AppDelegate */,
+				194328E12918F03D00B159B3 /* Busniess */,
+				194328EA2918F03D00B159B3 /* Tool */,
+				194328CE2918A82800B159B3 /* Resource */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for BGTableViewComponent";
+			path = BGTableViewComponent;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* BGTableViewComponent-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* BGTableViewComponent-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				23B519847BCE0E003491F2AE /* BGTableViewComponent.podspec */,
+				296A20796102419CE2A6990D /* README.md */,
+				C2BCF083F9D4135C54EC3618 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* BGTableViewComponent_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BGTableViewComponent_Example" */;
+			buildPhases = (
+				541D57013DEF81440BDECD23 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				7ACC0502A6FD11BF36862E22 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BGTableViewComponent_Example;
+			productName = BGTableViewComponent;
+			productReference = 6003F58A195388D20070C39A /* BGTableViewComponent_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* BGTableViewComponent_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BGTableViewComponent_Tests" */;
+			buildPhases = (
+				0E048C3AC7BEA221A8CE6B1A /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = BGTableViewComponent_Tests;
+			productName = BGTableViewComponentTests;
+			productReference = 6003F5AE195388D20070C39A /* BGTableViewComponent_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BG;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Bingo;
+				TargetAttributes = {
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "BGTableViewComponent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* BGTableViewComponent_Example */,
+				6003F5AD195388D20070C39A /* BGTableViewComponent_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				193B4DA5291A3D9A00C04316 /* BGTableViewButtonCell.xib in Resources */,
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E048C3AC7BEA221A8CE6B1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BGTableViewComponent_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		541D57013DEF81440BDECD23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BGTableViewComponent_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ACC0502A6FD11BF36862E22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BGTableViewComponent_Example/Pods-BGTableViewComponent_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BGTableViewComponent/BGTableViewComponent.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDCycleScrollView/SDCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BGTableViewComponent.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BGTableViewComponent_Example/Pods-BGTableViewComponent_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194328F62918F03D00B159B3 /* BGBaseTableViewCell.m in Sources */,
+				19FC69CD29305E0A001C0142 /* BGSectionViewModel.m in Sources */,
+				193B4DCD291C997B00C04316 /* BGSettingCellData.m in Sources */,
+				194328F42918F03D00B159B3 /* BGMessageTableViewCell.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				193B4DC7291C98EA00C04316 /* BGSettingTableViewCell.m in Sources */,
+				193B4DAB291BB7B600C04316 /* BGSectionView.m in Sources */,
+				193B4DA0291A304600C04316 /* BGNoSectionViewController.m in Sources */,
+				194328F72918F03D00B159B3 /* UILabel+BGTool.m in Sources */,
+				194328F82918F03D00B159B3 /* BGAPPTool.m in Sources */,
+				194328F32918F03D00B159B3 /* BGViewController.m in Sources */,
+				193B4DD3291CF12600C04316 /* BGBannerTableViewCell.m in Sources */,
+				193B4DCA291C993A00C04316 /* BGSettingFooterView.m in Sources */,
+				193B4DC4291C98D500C04316 /* BGSettingViewController.m in Sources */,
+				194328F52918F03D00B159B3 /* BGFoldingViewController.m in Sources */,
+				194328F92918F03D00B159B3 /* BGAppDelegate.m in Sources */,
+				193B4DA4291A3D9A00C04316 /* BGTableViewButtonCell.m in Sources */,
+				19FC69CA29305DE9001C0142 /* BGCellDataModel.m in Sources */,
+				193B4DA8291B533500C04316 /* BGComplexViewController.m in Sources */,
+				193B4DD0291C9E2E00C04316 /* UINavigationController+BGTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* BGTableViewComponent_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77AD5E5CB2AC6A3CDA96E8E /* Pods-BGTableViewComponent_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BGTableViewComponent/BGTableViewComponent-Prefix.pch";
+				INFOPLIST_FILE = "BGTableViewComponent/BGTableViewComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 520E4C933D959D31FFA65E6E /* Pods-BGTableViewComponent_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BGTableViewComponent/BGTableViewComponent-Prefix.pch";
+				INFOPLIST_FILE = "BGTableViewComponent/BGTableViewComponent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB3DA5D677DE92647DF4A36 /* Pods-BGTableViewComponent_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGTableViewComponent_Example.app/BGTableViewComponent_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B08DFFE27E0011869DD223 /* Pods-BGTableViewComponent_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGTableViewComponent_Example.app/BGTableViewComponent_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "BGTableViewComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BGTableViewComponent_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BGTableViewComponent_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

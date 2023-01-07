@@ -1,0 +1,41 @@
+PODS:
+  - BGTableViewComponent (0.1.0):
+    - BGTableViewComponent/Croe (= 0.1.0)
+    - BGTableViewComponent/Interface (= 0.1.0)
+    - BGTableViewComponent/Private (= 0.1.0)
+  - BGTableViewComponent/Croe (0.1.0):
+    - BGTableViewComponent/Private
+  - BGTableViewComponent/Interface (0.1.0)
+  - BGTableViewComponent/Private (0.1.0):
+    - BGTableViewComponent/Interface
+  - Masonry (1.1.0)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+
+DEPENDENCIES:
+  - BGTableViewComponent (from `../`)
+  - Masonry
+  - SDCycleScrollView
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - SDCycleScrollView
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  BGTableViewComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BGTableViewComponent: 88c8ebd73f04df1c81e90cec5eb69ebcb0e65e4e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+
+PODFILE CHECKSUM: 9025254840a76de36f3719832820debad0590578
+
+COCOAPODS: 1.11.3

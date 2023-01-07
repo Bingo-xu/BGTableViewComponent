@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="105" id="KGk-i7-Jjw" customClass="BGTableViewButtonCell">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="386" height="105"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F0F-8i-Mz1">
+                        <rect key="frame" x="20" y="57" width="80" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="931-z7-BmK"/>
+                            <constraint firstAttribute="height" constant="31" id="UqK-SZ-4Ui"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="事件一"/>
+                        <connections>
+                            <action selector="action1:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="0H3-Wj-EsR"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gl4-EE-mq4">
+                        <rect key="frame" x="0.0" y="16" width="386" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="pfB-32-yPF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nnc-sy-Hoy">
+                        <rect key="frame" x="286" y="57" width="80" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="ct7-CZ-IIQ"/>
+                            <constraint firstAttribute="height" constant="31" id="ukP-9L-06o"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="事件三"/>
+                        <connections>
+                            <action selector="action3:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="efa-sz-H1b"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6t-YG-DQV">
+                        <rect key="frame" x="154" y="57" width="78" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="78" id="OZu-Ed-88c"/>
+                            <constraint firstAttribute="height" constant="31" id="yW8-hx-edp"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="事件二"/>
+                        <connections>
+                            <action selector="action2:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="YyR-xa-YEL"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iuk-Hs-Jsb">
+                        <rect key="frame" x="15" y="104" width="371" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="UzB-nj-TyK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="iuk-Hs-Jsb" secondAttribute="bottom" id="0qN-3E-Vwq"/>
+                    <constraint firstItem="gl4-EE-mq4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="1Og-uL-7BI"/>
+                    <constraint firstItem="Nnc-sy-Hoy" firstAttribute="top" secondItem="gl4-EE-mq4" secondAttribute="bottom" constant="20" id="9aj-l3-SwZ"/>
+                    <constraint firstItem="gl4-EE-mq4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Bii-Ji-oMe"/>
+                    <constraint firstItem="Nnc-sy-Hoy" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="JTB-0N-AcD"/>
+                    <constraint firstAttribute="trailing" secondItem="gl4-EE-mq4" secondAttribute="trailing" id="K65-nA-ppb"/>
+                    <constraint firstItem="iuk-Hs-Jsb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Pwf-Q1-n9f"/>
+                    <constraint firstItem="F0F-8i-Mz1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="RWQ-Un-JN7"/>
+                    <constraint firstItem="H6t-YG-DQV" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="UWa-NO-TAf"/>
+                    <constraint firstItem="H6t-YG-DQV" firstAttribute="top" secondItem="gl4-EE-mq4" secondAttribute="bottom" constant="20" id="Y4W-YB-Jxq"/>
+                    <constraint firstAttribute="trailing" secondItem="iuk-Hs-Jsb" secondAttribute="trailing" id="eyq-oT-CbU"/>
+                    <constraint firstItem="F0F-8i-Mz1" firstAttribute="top" secondItem="gl4-EE-mq4" secondAttribute="bottom" constant="20" id="l9m-NR-Xqc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="titleLabel" destination="gl4-EE-mq4" id="Mru-BA-Kgm"/>
+            </connections>
+            <point key="canvasLocation" x="185.50724637681162" y="120.87053571428571"/>
+        </tableViewCell>
+    </objects>
+</document>

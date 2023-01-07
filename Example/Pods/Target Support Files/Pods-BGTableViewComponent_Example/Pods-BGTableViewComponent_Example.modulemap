@@ -1,0 +1,6 @@
+framework module Pods_BGTableViewComponent_Example {
+  umbrella header "Pods-BGTableViewComponent_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
